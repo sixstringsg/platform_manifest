@@ -37,6 +37,8 @@
   <project path="device/moto/stingray" name="device/moto/stingray" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/moto/wingray" name="device/moto/wingray" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="device/samsung/aries-common" name="AOKP/device_samsung_aries-common" remote="aokp" revision="jb" />
+  <project path="device/samsung/fascinatemtd" name="AOKPSGS/device_samsung_fascinatemtd" remote="aokp" revision="jb" />
   <project path="device/samsung/crespo" name="device/samsung/crespo" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
