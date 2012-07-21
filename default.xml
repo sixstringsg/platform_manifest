@@ -46,9 +46,9 @@
   <project path="device/samsung/crespo" name="device/samsung/crespo" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="device/samsung/toro" name="Stevespear426/platform_device_samsung_toro" remote="sgs" revision="jb" />
+  <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="aokp" revision="jb" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="device/samsung/tuna" name="Stevespear426/platform_device_samsung_tuna" remote="sgs" revision="jb" />
+  <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="jb" />
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/aac" name="platform/external/aac" remote="aosp" revision="refs/tags/android-4.1.1_r1_" />
@@ -101,7 +101,7 @@
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/grub" name="platform/external/grub" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/gtest" name="platform/external/gtest" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/guava" name="platform/external/guava" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="external/guava" name="AOKP/external_guava" remote="aokp" revision="jb" />
   <project path="external/hamcrest" name="platform/external/hamcrest" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/hyphenation" name="platform/external/hyphenation" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -198,7 +198,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/zlib" name="platform/external/zlib" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="frameworks/av" name="platform/frameworks/av" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb" />
   <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -218,10 +218,10 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="gdk" name="platform/gdk" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="jellybean" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="hardware/libhardware" name="AOKP/android_hardware_libhardware" remote="aokp" revision="jb" />
+  <project path="hardware/libhardware_legacy" name="AOKP/android_hardware_libhardware_legacy" remote="aokp" revision="jb" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/qcom/display" name="AOKP/android_hardware_qcom_display" remote="aokp" revision="jb" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -271,7 +271,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="packages/inputmethods/LatinIME" name="AOKP/packages_input_LatinIME" remote="aokp" revision="jb" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -324,8 +324,10 @@
   <project path="system/vold" name="platform/system/vold" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
 
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb" />
+  <project path="vendor/samsung" name="AOKPSGS/vendor_samsung" remote="sgs" revision="jb" />
 
-  <project path="system/su" name="AOKP/android_system_su" remote="aokp" revision="jb" />
+  <project path="system/su" name="android_system_su" remote="cm" revision="jellybean" />
+  <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers" remote="aokp" revision="jb" />
 
 
 </manifest>
