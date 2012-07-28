@@ -322,8 +322,8 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/bluetooth" name="platform/system/bluetooth" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="system/core" name="AOKP/android_system_core" remote="aokp" revision="jellybean" />
-  <project path="system/extras" name="android_system_extras" remote="cm" revision="jellybean" />
+  <project path="system/core" name="AOKP/android_system_core" remote="aokp" revision="jb" />
+  <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb" />
   <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/netd" name="platform/system/netd" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
