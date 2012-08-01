@@ -41,8 +41,10 @@
   <project path="device/moto/stingray" name="device/moto/stingray" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/moto/wingray" name="device/moto/wingray" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="cm" revision="jellybean" />
-  <project path="device/samsung/fascinatemtd" name="AOKPSGS/android_device_samsung_fascinatemtd" remote="sgs" revision="jellybean" />
+  <project path="device/samsung/aries-common" name="Stevespear426/device_samsung_aries-common" remote="sgs" revision="jb" />
+  <project path="device/samsung/fascinatemtd" name="Stevespear426/device_samsung_fascinatemtd" remote="sgs" revision="jb" />
+  <project path="device/samsung/fascinatemtd" name="Stevespear426/device_samsung_mesmerizemtd" remote="sgs" revision="jellybean" />
+  <project path="device/samsung/fascinatemtd" name="Stevespear426/device_samsung_showcasemtd" remote="sgs" revision="jellybean" />
   <project path="device/samsung/crespo" name="AOKP/device_samsung_crespo" remote="aokp" revision="jb" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/d2-common" name="AOKP/android_device_samsung_d2-common" remote="aokp" revision="jb" />
@@ -242,7 +244,7 @@
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="jb" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/Camera" name="AOKP/packages_apps_Camera" remote="aokp" revision="jb" />
@@ -253,7 +255,7 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="packages/apps/Gallery2" name="AOKP/android_packages_apps_Gallery2" remote="aokp" revision="jb" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -327,14 +329,21 @@
   <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/netd" name="platform/system/netd" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="system/vold" name="platform/system/vold" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
 
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb" />
-  <project path="vendor/samsung" name="AOKPSGS/vendor_samsung" remote="sgs" revision="jb" />
-  <project path="kernel/samsung/aries" name="android_kernel_samsung_aries" remote="cm" revision="jellybean" />
+  <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb" />
+  <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb" />
+  <project path="vendor/asus/grouper" name="AOKP/vendor_asus_grouper" remote="aokp" revision="jb" />
 
   <project path="system/su" name="android_system_su" remote="cm" revision="jellybean" />
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers" remote="aokp" revision="jb" />
 
+  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb" />
+
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
 
 </manifest>
