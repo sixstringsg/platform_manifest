@@ -1,2 +1,2 @@
-$ repo init -u https://github.com/Stevespear426/platform_manifest.git -b jb
+$ repo init -u https://github.com/Stevespear426/platform_manifest.git -b kf
 $ repo sync
