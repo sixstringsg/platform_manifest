@@ -238,7 +238,7 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="jellybean" />
   <project path="hardware/qcom/media" name="AOKP/android_hardware_qcom_media" remote="aokp" revision="jb" />
   <project path="hardware/ril" name="AOKP/android_hardware_ril" remote="aokp" revision="jb" />
-  <project path="hardware/samsung" name="Cyanogenmod/android_hardware_samsung" remote="cm" revision="jellybean" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="jellybean" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
