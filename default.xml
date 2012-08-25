@@ -43,6 +43,9 @@
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/aries-common" name="Stevespear426/device_samsung_aries-common" remote="sgs" revision="jb" />
   <project path="device/samsung/fascinatemtd" name="Stevespear426/device_samsung_fascinatemtd" remote="sgs" revision="jb" />
+  <project path="device/samsung/captivatemtd" name="sixstringsg/device_samsung_captivateatemtd" remote="sgs" revision="jb" />
+  <project path="device/samsung/galaxysmtd" name="sixstringsg/device_samsung_galaxysmtd" remote="sgs" revision="jb" />
+  <project path="device/samsung/vibrantmtd" name="sixstringsg/device_samsung_vibrantmtd" remote="sgs" revision="jb" />
   <project path="device/samsung/crespo" name="AOKP/device_samsung_crespo" remote="aokp" revision="jb" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/d2-common" name="AOKP/android_device_samsung_d2-common" remote="aokp" revision="jb" />
